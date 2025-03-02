@@ -1,17 +1,16 @@
 /*
-  Damián estuvo y siempre estará aquí
-   Twitter => @Damian_Friends
-   GitHub => @Damian-Friends 
-   Discord => https://go.damii.xyz/discord
+   Damián estuvo aquí...
+   Instagram: @damiiawa
+   GitHub: @damiiawa
+
+   Damián Astroza Pérez (Actualización 2025)
 */
 
 
-/* Fuentes de Texto - Text Fonts */
+/* Fuentes de Texto */
 
 @import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
-
-/* Principal - Main */
 
 body {
     background-color: #222836;
@@ -53,48 +52,43 @@ a:hover {
 }
 
 
-/* Botones - Buttons */
-
 .btn-primary {
     background-color: #626ed4;
-    border-radius: 50px;
+    border-radius: 5px;
     font-family: Cabin;
 }
 
 .btn-primary:hover {
-    background-color: #626ed4;
-    border-radius: 50px;
+    background-color: #8f99ee;
+    border-radius: 5px;
     font-family: Cabin;
 }
 
 .btn-success {
     background-color: #02a499;
-    border-radius: 50px;
+    border-radius: 5px;
     font-family: Cabin;
 }
 
 .btn-success:hover {
-    background-color: #02a499;
-    border-radius: 50px;
+    background-color: #65fdf3;
+    border-radius: 5px;
     font-family: Cabin;
 }
 
 .btn-danger {
     background-color: #ec4561;
     color: #f5f5f5;
-    border-radius: 50px;
+    border-radius: 5px;
     font-family: Cabin;
 }
 
 .btn-danger:hover {
     background-color: #ec4561;
     color: #f5f5f5;
-    border-radius: 50px;
+    border-radius: 5px;
     font-family: Cabin;
 }
-
-
-/* Modals Compra Exitosa - Modals Successful Purchase */
 
 .modal-content {
     background-color: #2a3142;
@@ -111,8 +105,6 @@ a:hover {
 }
 
 
-/* Producto Existente - Existing Product */
-
 .toast-header {
     background-color: #2a3142;
     font-family: Montserrat;
@@ -124,9 +116,6 @@ a:hover {
     font-family: Cabin;
     color: #f5f5f5;
 }
-
-
-/* Productos - Products */
 
 .item {
     border: 3px solid #ec4561;
@@ -158,9 +147,6 @@ a:hover {
     margin: 0;
 }
 
-
-/* Carrito de Compras - Shopping Cart */
-
 .shopping-cart-items {
     padding: 20px 0px;
 }
@@ -176,10 +162,11 @@ a:hover {
 
 .shopping-cart-quantity-input {
     max-width: 45px;
-    border: 1px solid #ccc;
+    border: 1px solid #2a3142;
     border-radius: 5px;
-    background: #eee;
+    background: #2a3142;
     padding: 5px;
+    color: #fff;
 }
 
 .shopping-cart-total {

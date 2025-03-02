@@ -1,8 +1,9 @@
 <!--
-  Damián estuvo y siempre estará aquí
-   Twitter => @Damian_Friends
-   GitHub => @Damian-Friends 
-   Discord => https://go.damii.xyz/discord
+   Damián estuvo aquí...
+   Instagram: @damiiawa
+   GitHub: @damiiawa
+
+   Damián Astroza Pérez (Actualización 2025)
 -->
 
 <!DOCTYPE html>
@@ -13,8 +14,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="./img/icono.png">
-    <title>DamiiShop - Basico</title>
+    <link rel="shortcut icon" href="./img/favicon.ico">
+    <title>Pseudocarrito</title>
 </head>
 
 <body>
@@ -23,10 +24,10 @@
     <br>
     <br>
 
-    <!-- Carrito de Compras - Shopping Cart -->
+    <!-- Estructura -->
     <section class="shopping-cart">
         <div class="container">
-            <h1 class="text-center titulo">¡Compremos algo juntos!</h1>
+            <h1 class="text-center titulo">Carrito de compras</h1>
             <hr>
             <div class="row">
                 <div class="col-6">
@@ -36,7 +37,7 @@
                 </div>
                 <div class="col-2">
                     <div class="shopping-cart-header">
-                        <h6 class="text-truncate">Precios</h6>
+                        <h6 class="text-truncate">Valor unitario</h6>
                     </div>
                 </div>
                 <div class="col-4">
@@ -45,7 +46,6 @@
                     </div>
                 </div>
             </div>
-            <!-- Productos - Prdouctos -->
             <div class="shopping-cart-items shoppingCartItemsContainer">
             </div>
 
@@ -53,8 +53,8 @@
             <div class="row">
                 <div class="col-12">
                     <div class="shopping-cart-total d-flex align-items-center">
-                        <p class="mb-0">Total</p>
-                        <p class="ml-4 mb-0 shoppingCartTotal">0.00$</p>
+                        <p class="mb-0"><strong>TOTAL</strong></p>
+                        <p class="ml-4 mb-0 shoppingCartTotal">$0.00</p>
                         <div class="toast ml-auto bg-info" role="alert" aria-live="assertive" aria-atomic="true" data-delay="2000">
                             <div class="toast-header">
                                 <strong class="mr-auto ml-1">¡Producto ya agregado!</strong>
@@ -76,18 +76,18 @@
                 </div>
             </div>
 
-            <!-- Compra exitosa -->
+            <!-- Aviso de compra exitosa -->
             <div class="modal fade" id="comprarModal" tabindex="-1" aria-labelledby="comprarModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="comprarModalLabel">¡Compra Realizada con exito!</h5>
+                            <h5 class="modal-title" id="comprarModalLabel">¡Compra procesada con exito!</h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
                         </div>
                         <div class="modal-body">
-                            <p>Agradecemos tu grandiosa compra en algunos de nuestros productos. En menos de 24 horas el servicio se te sera entregado.</p>
+                            <p>Se ha concretado la compra.</p>
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
@@ -101,7 +101,7 @@
     </section>
 
 
-    <!-- Tienda - Store -->
+    <!-- Productos -->
     <section class="store">
         <div class="container">
             <div class="items">
@@ -109,59 +109,30 @@
 
                     <div class="col-12 col-md-6">
                         <div class="item shadow mb-4">
-                            <h3 class="item-title">Papa Frita</h3>
-                            <img class="item-image" src="./img/papafrita.gif">
+                            <h3 class="item-title">Patatas Fritas</h3>
+                            <img class="item-image" src="./img/PatataFrita.gif">
 
                             <div class="item-details">
-                                <h4 class="item-price">1.80$</h4>
-                                <button class="item-button btn btn-primary addToCart"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-plus-fill" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5v-.5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zM8.5 8a.5.5 0 0 0-1 0v1.5H6a.5.5 0 0 0 0 1h1.5V12a.5.5 0 0 0 1 0v-1.5H10a.5.5 0 0 0 0-1H8.5V8z"/>
-</svg> Agregar Producto</button>
+                                <h4 class="item-price">$3.25</h4>
+                                <button class="item-button btn btn-primary addToCart">Añadir producto</button>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6">
                         <div class="item shadow mb-4">
-                            <h3 class="item-title">Papa Frita Lays</h3>
+                            <h3 class="item-title">Botella de agua</h3>
 
-                            <img class="item-image" src="./img/papafrita.gif">
+                            <img class="item-image" src="./img/BotellaDeAgua.gif">
                             <div class="item-details">
-                                <h4 class="item-price">6.40$</h4>
-                                <button class="item-button btn btn-primary addToCart"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-plus-fill" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5v-.5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zM8.5 8a.5.5 0 0 0-1 0v1.5H6a.5.5 0 0 0 0 1h1.5V12a.5.5 0 0 0 1 0v-1.5H10a.5.5 0 0 0 0-1H8.5V8z"/>
-</svg> Agregar Producto</button>
+                                <h4 class="item-price">$0.50</h4>
+                                <button class="item-button btn btn-primary addToCart">Añadir producto</button>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="row">
-                    <div class="col-12 col-md-6">
-                        <div class="item shadow mb-4">
-                            <h3 class="item-title">Papa Frita Frita</h3>
 
-                            <img class="item-image" src="./img/papafrita.gif">
-
-                            <div class="item-details">
-                                <h4 class="item-price">42.30$</h4>
-                                <button class="item-button btn btn-primary addToCart"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-plus-fill" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5v-.5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zM8.5 8a.5.5 0 0 0-1 0v1.5H6a.5.5 0 0 0 0 1h1.5V12a.5.5 0 0 0 1 0v-1.5H10a.5.5 0 0 0 0-1H8.5V8z"/>
-</svg> Agregar Producto</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6">
-                        <div class="item shadow mb-4">
-                            <h3 class="item-title">Papita Frita de Kamerr</h3>
-
-                            <img class="item-image" src="./img/papafrita.gif">
-
-                            <div class="item-details">
-                                <h4 class="item-price">500$</h4>
-                                <button class="item-button btn btn-primary addToCart"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-plus-fill" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5v-.5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zM8.5 8a.5.5 0 0 0-1 0v1.5H6a.5.5 0 0 0 0 1h1.5V12a.5.5 0 0 0 1 0v-1.5H10a.5.5 0 0 0 0-1H8.5V8z"/>
-</svg> Agregar Producto</button>
-                            </div>
+            
                         </div>
                     </div>
                 </div>
@@ -173,7 +144,7 @@
 
     <!-- Footer -->
     <footer class="footer p-3 mt-5">
-        <p class="text-center footertext">© Damián, 2021 | <a href="https://github.com/Damian-Friends">DamiiProjects</a></p>
+        <p class="text-center footertext">© Damián Astroza, 2025 (Actualizado) | <a href="https://github.com/damiiawa">Damiiawa GitHub</a></p>
     </footer>
 
     <!-- Scripts -->
