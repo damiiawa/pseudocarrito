@@ -1,9 +1,14 @@
-# Carrito de Compras [Básico]
+> [!IMPORTANT]  
+> Este es un proyecto a modo de práctica y entendimiento de funcionalidades básicas en HTML5, CSS y JavaScript, por ende, no está pensado para utilizarse en producción. Realizado con fines educativos.
 
-> Un pequeño sistema que funciona como un pequeño carrito de compras, esto solo suma los precios de los productos, agrega y elimina.
+> [!WARNING]  
+> Este proyecto no recibe actualizaciones. Código libre de uso, sin antribuciones requeridas.
 
-**Contenido:**
-- Items por Producto.
+# Carrito de compras por items
+Sistema de funcionamiento básico de un carrito de compras organizado por elementos realizado en HTML, CSS y JavaScript.
+
+## Contenido del repositorio:
+- Items por producto.
 - Sumador de Items.
 - Multiplicador de Items.
 - Diseño CSS Básico.
@@ -12,16 +17,9 @@
 - Alerta de "Producto ya añadido".
 - Alerta de "¡Compra Exitosa!".
 
-> Como puedes ver es algo completamente sencillo sin tanta complejidad, pero esto te muestra un sistema simple de como puedes hacer operaciones con JavaScript
-
----
-## Programador
-
- * Damián
-  ```
-    * Twitter: @Damian_Friends
-    * Servidor de Discord: go.damii.xyz/discord
-    * YouTube: go.damii.xyz/youtube
-  ```
-  
+## Previsualización
   ![Carrito de Compras](https://raw.githubusercontent.com/Damian-Friends/shoppingcart-basic/main/img/SitioWeb.PNG "Demostración Carrito de compras básico")
+  
+## Atribuciones
+### Desarrollo, diseño y prototipado
+ * [Damián Astroza Pérez](https://www.linkedin.com/in/damian-astroza/)
